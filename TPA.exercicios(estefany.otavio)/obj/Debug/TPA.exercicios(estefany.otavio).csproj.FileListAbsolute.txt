@@ -1,0 +1,13 @@
+C:\Users\jpabl\OneDrive\Área de Trabalho\ETEC.0.0\TPA\revisao.set\TPA.exercicios(estefany.otavio)\TPA.exercicios(estefany.otavio)\bin\Debug\TPA.exercicios(estefany.otavio).exe.config
+C:\Users\jpabl\OneDrive\Área de Trabalho\ETEC.0.0\TPA\revisao.set\TPA.exercicios(estefany.otavio)\TPA.exercicios(estefany.otavio)\bin\Debug\TPA.exercicios(estefany.otavio).exe
+C:\Users\jpabl\OneDrive\Área de Trabalho\ETEC.0.0\TPA\revisao.set\TPA.exercicios(estefany.otavio)\TPA.exercicios(estefany.otavio)\bin\Debug\TPA.exercicios(estefany.otavio).pdb
+C:\Users\jpabl\OneDrive\Área de Trabalho\ETEC.0.0\TPA\revisao.set\TPA.exercicios(estefany.otavio)\TPA.exercicios(estefany.otavio)\obj\Debug\TPA.exercicios(estefany.otavio).csproj.AssemblyReference.cache
+C:\Users\jpabl\OneDrive\Área de Trabalho\ETEC.0.0\TPA\revisao.set\TPA.exercicios(estefany.otavio)\TPA.exercicios(estefany.otavio)\obj\Debug\TPA.exercicios_estefany.otavio_.frmtabuada1.resources
+C:\Users\jpabl\OneDrive\Área de Trabalho\ETEC.0.0\TPA\revisao.set\TPA.exercicios(estefany.otavio)\TPA.exercicios(estefany.otavio)\obj\Debug\TPA.exercicios_estefany.otavio_.Properties.Resources.resources
+C:\Users\jpabl\OneDrive\Área de Trabalho\ETEC.0.0\TPA\revisao.set\TPA.exercicios(estefany.otavio)\TPA.exercicios(estefany.otavio)\obj\Debug\TPA.exercicios(estefany.otavio).csproj.GenerateResource.cache
+C:\Users\jpabl\OneDrive\Área de Trabalho\ETEC.0.0\TPA\revisao.set\TPA.exercicios(estefany.otavio)\TPA.exercicios(estefany.otavio)\obj\Debug\TPA.exercicios(estefany.otavio).csproj.CoreCompileInputs.cache
+C:\Users\jpabl\OneDrive\Área de Trabalho\ETEC.0.0\TPA\revisao.set\TPA.exercicios(estefany.otavio)\TPA.exercicios(estefany.otavio)\obj\Debug\TPA.exercicios(estefany.otavio).exe
+C:\Users\jpabl\OneDrive\Área de Trabalho\ETEC.0.0\TPA\revisao.set\TPA.exercicios(estefany.otavio)\TPA.exercicios(estefany.otavio)\obj\Debug\TPA.exercicios(estefany.otavio).pdb
+C:\Users\jpabl\OneDrive\Área de Trabalho\ETEC.0.0\TPA\revisao.set\TPA.exercicios(estefany.otavio)\TPA.exercicios(estefany.otavio)\obj\Debug\TPA.exercicios(estefany.otavio).exe.config
+C:\Users\jpabl\OneDrive\Área de Trabalho\ETEC.0.0\TPA\revisao.set\TPA.exercicios(estefany.otavio)\TPA.exercicios(estefany.otavio)\obj\Debug\TPA.exercicios_estefany.otavio_.frmtabuada2.resources
+C:\Users\jpabl\OneDrive\Área de Trabalho\ETEC.0.0\TPA\revisao.set\TPA.exercicios(estefany.otavio)\TPA.exercicios(estefany.otavio)\obj\Debug\TPA.exercicios_estefany.otavio_.frmmenu.resources
