@@ -45,30 +45,33 @@
             this.lblnum.Size = new System.Drawing.Size(195, 26);
             this.lblnum.TabIndex = 0;
             this.lblnum.Text = "Digite um número:";
+            this.lblnum.Click += new System.EventHandler(this.lblnum_Click);
             // 
             // txtnum
             // 
             this.txtnum.Location = new System.Drawing.Point(311, 89);
-            this.txtnum.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtnum.Margin = new System.Windows.Forms.Padding(5);
             this.txtnum.Name = "txtnum";
             this.txtnum.Size = new System.Drawing.Size(160, 34);
             this.txtnum.TabIndex = 1;
+            this.txtnum.TextChanged += new System.EventHandler(this.txtnum_TextChanged);
             // 
             // txtresult
             // 
             this.txtresult.Location = new System.Drawing.Point(369, 180);
-            this.txtresult.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtresult.Margin = new System.Windows.Forms.Padding(5);
             this.txtresult.Multiline = true;
             this.txtresult.Name = "txtresult";
             this.txtresult.ReadOnly = true;
-            this.txtresult.Size = new System.Drawing.Size(133, 243);
+            this.txtresult.Size = new System.Drawing.Size(133, 225);
             this.txtresult.TabIndex = 2;
+            this.txtresult.TextChanged += new System.EventHandler(this.txtresult_TextChanged);
             // 
             // btncalcular
             // 
             this.btncalcular.BackColor = System.Drawing.Color.Pink;
             this.btncalcular.Location = new System.Drawing.Point(92, 196);
-            this.btncalcular.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btncalcular.Margin = new System.Windows.Forms.Padding(5);
             this.btncalcular.Name = "btncalcular";
             this.btncalcular.Size = new System.Drawing.Size(122, 37);
             this.btncalcular.TabIndex = 3;
@@ -80,7 +83,7 @@
             // 
             this.btnlimpar.BackColor = System.Drawing.Color.Pink;
             this.btnlimpar.Location = new System.Drawing.Point(92, 291);
-            this.btnlimpar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnlimpar.Margin = new System.Windows.Forms.Padding(5);
             this.btnlimpar.Name = "btnlimpar";
             this.btnlimpar.Size = new System.Drawing.Size(122, 37);
             this.btnlimpar.TabIndex = 4;
@@ -92,7 +95,7 @@
             // 
             this.btnvoltar.BackColor = System.Drawing.Color.Pink;
             this.btnvoltar.Location = new System.Drawing.Point(92, 386);
-            this.btnvoltar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnvoltar.Margin = new System.Windows.Forms.Padding(5);
             this.btnvoltar.Name = "btnvoltar";
             this.btnvoltar.Size = new System.Drawing.Size(122, 37);
             this.btnvoltar.TabIndex = 5;
@@ -104,7 +107,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(821, 534);
+            this.ClientSize = new System.Drawing.Size(754, 491);
             this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.btnlimpar);
             this.Controls.Add(this.btncalcular);
@@ -112,8 +115,9 @@
             this.Controls.Add(this.txtnum);
             this.Controls.Add(this.lblnum);
             this.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "frmtabuada2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tabuada (faca)";
             this.ResumeLayout(false);
             this.PerformLayout();

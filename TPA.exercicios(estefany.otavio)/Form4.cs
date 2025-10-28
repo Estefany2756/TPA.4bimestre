@@ -10,55 +10,40 @@ using System.Windows.Forms;
 
 namespace TPA.exercicios_estefany.otavio_
 {
-    public partial class frmtabuada2 : Form
+    public partial class frmtabuada3 : Form
     {
-        public frmtabuada2()
+        public frmtabuada3()
         {
             InitializeComponent();
         }
 
         private void btncalcular_Click(object sender, EventArgs e)
         {
-            Int32 result, I = 1, num;
+            Int32 I = 1, num, result;
+
             num = Convert.ToInt32(txtnum.Text);
 
-            do
+            for (I = 1; I <=10; I++)
             {
                 result = num * I;
                 txtresult.Text += num + "x" + I + "=" + result + "\n";
-                I++;
+              
             }
-            while (I<=10);
-        
-    }
 
-        private void btnvoltar_Click(object sender, EventArgs e)
-        {
-            Hide();
-            frmmenu menu = new frmmenu();
-            menu.Show();    
         }
 
         private void btnlimpar_Click(object sender, EventArgs e)
         {
             txtnum.Clear();
             txtresult.Clear();
-            txtnum.Focus();
+            txtresult.Focus();
         }
 
-        private void txtresult_TextChanged(object sender, EventArgs e)
+        private void btnvoltar_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void txtnum_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblnum_Click(object sender, EventArgs e)
-        {
-
+            Hide();
+            frmmenu menu = new frmmenu();
+            menu.Show();
         }
     }
 }

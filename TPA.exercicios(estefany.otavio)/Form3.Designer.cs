@@ -30,10 +30,10 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.tsmiprogramas = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmisair = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmitabuada1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmitabuada2 = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmitabuada3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmisair = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,13 +59,6 @@
             this.tsmiprogramas.Size = new System.Drawing.Size(94, 24);
             this.tsmiprogramas.Text = "Programas";
             // 
-            // tsmisair
-            // 
-            this.tsmisair.Name = "tsmisair";
-            this.tsmisair.Size = new System.Drawing.Size(48, 24);
-            this.tsmisair.Text = "Sair";
-            this.tsmisair.Click += new System.EventHandler(this.tsmisair_Click);
-            // 
             // tsmitabuada1
             // 
             this.tsmitabuada1.Name = "tsmitabuada1";
@@ -85,6 +78,14 @@
             this.tsmitabuada3.Name = "tsmitabuada3";
             this.tsmitabuada3.Size = new System.Drawing.Size(224, 26);
             this.tsmitabuada3.Text = "Tabuada 3";
+            this.tsmitabuada3.Click += new System.EventHandler(this.tsmitabuada3_Click);
+            // 
+            // tsmisair
+            // 
+            this.tsmisair.Name = "tsmisair";
+            this.tsmisair.Size = new System.Drawing.Size(48, 24);
+            this.tsmisair.Text = "Sair";
+            this.tsmisair.Click += new System.EventHandler(this.tsmisair_Click);
             // 
             // frmmenu
             // 
@@ -94,6 +95,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmmenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

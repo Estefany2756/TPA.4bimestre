@@ -43,5 +43,10 @@ namespace TPA.exercicios_estefany.otavio_
             frmmenu menu = new frmmenu();
             menu.Show();
         }
+
+        private void frmtabuada1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

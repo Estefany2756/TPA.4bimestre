@@ -35,5 +35,12 @@ namespace TPA.exercicios_estefany.otavio_
         {
             Application.Exit();
         }
+
+        private void tsmitabuada3_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmtabuada3 tab3 = new frmtabuada3();
+            tab3.Show();
+        }
     }
 }

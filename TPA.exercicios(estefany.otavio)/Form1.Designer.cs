@@ -49,7 +49,7 @@
             // txtnum
             // 
             this.txtnum.Location = new System.Drawing.Point(285, 69);
-            this.txtnum.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtnum.Margin = new System.Windows.Forms.Padding(5);
             this.txtnum.Name = "txtnum";
             this.txtnum.Size = new System.Drawing.Size(160, 34);
             this.txtnum.TabIndex = 1;
@@ -58,7 +58,7 @@
             // 
             this.btncalcular.BackColor = System.Drawing.Color.Pink;
             this.btncalcular.Location = new System.Drawing.Point(94, 192);
-            this.btncalcular.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btncalcular.Margin = new System.Windows.Forms.Padding(5);
             this.btncalcular.Name = "btncalcular";
             this.btncalcular.Size = new System.Drawing.Size(122, 37);
             this.btncalcular.TabIndex = 3;
@@ -70,7 +70,7 @@
             // 
             this.btnlimpar.BackColor = System.Drawing.Color.Pink;
             this.btnlimpar.Location = new System.Drawing.Point(94, 273);
-            this.btnlimpar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnlimpar.Margin = new System.Windows.Forms.Padding(5);
             this.btnlimpar.Name = "btnlimpar";
             this.btnlimpar.Size = new System.Drawing.Size(122, 37);
             this.btnlimpar.TabIndex = 4;
@@ -82,7 +82,7 @@
             // 
             this.btnvoltar.BackColor = System.Drawing.Color.Pink;
             this.btnvoltar.Location = new System.Drawing.Point(94, 348);
-            this.btnvoltar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnvoltar.Margin = new System.Windows.Forms.Padding(5);
             this.btnvoltar.Name = "btnvoltar";
             this.btnvoltar.Size = new System.Drawing.Size(122, 37);
             this.btnvoltar.TabIndex = 5;
@@ -104,7 +104,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(809, 536);
+            this.ClientSize = new System.Drawing.Size(769, 496);
             this.Controls.Add(this.txtresult);
             this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.btnlimpar);
@@ -112,9 +112,11 @@
             this.Controls.Add(this.txtnum);
             this.Controls.Add(this.lblnum);
             this.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "frmtabuada1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tabuada (enquanto)";
+            this.Load += new System.EventHandler(this.frmtabuada1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
