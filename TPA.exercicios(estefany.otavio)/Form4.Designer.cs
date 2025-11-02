@@ -31,9 +31,9 @@
             this.btnvoltar = new System.Windows.Forms.Button();
             this.btnlimpar = new System.Windows.Forms.Button();
             this.btncalcular = new System.Windows.Forms.Button();
-            this.txtresult = new System.Windows.Forms.TextBox();
             this.txtnum = new System.Windows.Forms.TextBox();
             this.lblnum = new System.Windows.Forms.Label();
+            this.txtresult = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnvoltar
@@ -41,7 +41,7 @@
             this.btnvoltar.BackColor = System.Drawing.Color.Pink;
             this.btnvoltar.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnvoltar.Location = new System.Drawing.Point(94, 383);
-            this.btnvoltar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnvoltar.Margin = new System.Windows.Forms.Padding(5);
             this.btnvoltar.Name = "btnvoltar";
             this.btnvoltar.Size = new System.Drawing.Size(122, 37);
             this.btnvoltar.TabIndex = 11;
@@ -54,7 +54,7 @@
             this.btnlimpar.BackColor = System.Drawing.Color.Pink;
             this.btnlimpar.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlimpar.Location = new System.Drawing.Point(94, 288);
-            this.btnlimpar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnlimpar.Margin = new System.Windows.Forms.Padding(5);
             this.btnlimpar.Name = "btnlimpar";
             this.btnlimpar.Size = new System.Drawing.Size(122, 37);
             this.btnlimpar.TabIndex = 10;
@@ -67,7 +67,7 @@
             this.btncalcular.BackColor = System.Drawing.Color.Pink;
             this.btncalcular.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncalcular.Location = new System.Drawing.Point(94, 193);
-            this.btncalcular.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btncalcular.Margin = new System.Windows.Forms.Padding(5);
             this.btncalcular.Name = "btncalcular";
             this.btncalcular.Size = new System.Drawing.Size(122, 37);
             this.btncalcular.TabIndex = 9;
@@ -75,22 +75,11 @@
             this.btncalcular.UseVisualStyleBackColor = false;
             this.btncalcular.Click += new System.EventHandler(this.btncalcular_Click);
             // 
-            // txtresult
-            // 
-            this.txtresult.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtresult.Location = new System.Drawing.Point(353, 168);
-            this.txtresult.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.txtresult.Multiline = true;
-            this.txtresult.Name = "txtresult";
-            this.txtresult.ReadOnly = true;
-            this.txtresult.Size = new System.Drawing.Size(120, 277);
-            this.txtresult.TabIndex = 8;
-            // 
             // txtnum
             // 
             this.txtnum.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtnum.Location = new System.Drawing.Point(313, 86);
-            this.txtnum.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtnum.Margin = new System.Windows.Forms.Padding(5);
             this.txtnum.Name = "txtnum";
             this.txtnum.Size = new System.Drawing.Size(160, 34);
             this.txtnum.TabIndex = 7;
@@ -106,15 +95,26 @@
             this.lblnum.TabIndex = 6;
             this.lblnum.Text = "Digite um número:";
             // 
+            // txtresult
+            // 
+            this.txtresult.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtresult.Location = new System.Drawing.Point(332, 171);
+            this.txtresult.Margin = new System.Windows.Forms.Padding(5);
+            this.txtresult.Multiline = true;
+            this.txtresult.Name = "txtresult";
+            this.txtresult.ReadOnly = true;
+            this.txtresult.Size = new System.Drawing.Size(173, 269);
+            this.txtresult.TabIndex = 12;
+            // 
             // frmtabuada3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(766, 525);
+            this.ClientSize = new System.Drawing.Size(745, 500);
+            this.Controls.Add(this.txtresult);
             this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.btnlimpar);
             this.Controls.Add(this.btncalcular);
-            this.Controls.Add(this.txtresult);
             this.Controls.Add(this.txtnum);
             this.Controls.Add(this.lblnum);
             this.Name = "frmtabuada3";
@@ -130,8 +130,8 @@
         private System.Windows.Forms.Button btnvoltar;
         private System.Windows.Forms.Button btnlimpar;
         private System.Windows.Forms.Button btncalcular;
-        private System.Windows.Forms.TextBox txtresult;
         private System.Windows.Forms.TextBox txtnum;
         private System.Windows.Forms.Label lblnum;
+        private System.Windows.Forms.TextBox txtresult;
     }
 }

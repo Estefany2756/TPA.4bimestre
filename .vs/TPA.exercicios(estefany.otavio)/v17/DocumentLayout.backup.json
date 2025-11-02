@@ -1,37 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\",
+  "WorkspaceRootPath": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\tpa.exercicios(estefany.otavio)\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|solutionrelative:tpa.exercicios(estefany.otavio)\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\tpa.exercicios(estefany.otavio)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|solutionrelative:tpa.exercicios(estefany.otavio)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|c:\\users\\jpabl\\source\\repos\\4bimestre.ori\\tpa.exercicios(estefany.otavio)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|solutionrelative:tpa.exercicios(estefany.otavio)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\tpa.exercicios(estefany.otavio)\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|solutionrelative:tpa.exercicios(estefany.otavio)\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|c:\\users\\jpabl\\source\\repos\\4bimestre.ori\\tpa.exercicios(estefany.otavio)\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|solutionrelative:tpa.exercicios(estefany.otavio)\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|c:\\users\\jpabl\\source\\repos\\4bimestre.ori\\tpa.exercicios(estefany.otavio)\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|solutionrelative:tpa.exercicios(estefany.otavio)\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|c:\\users\\jpabl\\source\\repos\\4bimestre.ori\\tpa.exercicios(estefany.otavio)\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|c:\\users\\jpabl\\source\\repos\\tpa.4bi.2ex.0211\\tpa.exercicios(estefany.otavio)\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|solutionrelative:tpa.exercicios(estefany.otavio)\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|c:\\users\\jpabl\\source\\repos\\4bimestre.ori\\tpa.exercicios(estefany.otavio)\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|c:\\users\\jpabl\\source\\repos\\tpa.4bi.2ex.0211\\tpa.exercicios(estefany.otavio)\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|solutionrelative:tpa.exercicios(estefany.otavio)\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|c:\\users\\jpabl\\source\\repos\\tpa.4bi.2ex.0211\\tpa.exercicios(estefany.otavio)\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|solutionrelative:tpa.exercicios(estefany.otavio)\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\tpa.exercicios(estefany.otavio)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|solutionrelative:tpa.exercicios(estefany.otavio)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|c:\\users\\jpabl\\source\\repos\\tpa.4bi.2ex.0211\\tpa.exercicios(estefany.otavio)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|solutionrelative:tpa.exercicios(estefany.otavio)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|c:\\users\\jpabl\\source\\repos\\tpa.4bi.2ex.0211\\tpa.exercicios(estefany.otavio)\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|solutionrelative:tpa.exercicios(estefany.otavio)\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\tpa.exercicios(estefany.otavio)\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|solutionrelative:tpa.exercicios(estefany.otavio)\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|c:\\users\\jpabl\\source\\repos\\tpa.4bi.2ex.0211\\tpa.exercicios(estefany.otavio)\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|solutionrelative:tpa.exercicios(estefany.otavio)\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|c:\\users\\jpabl\\source\\repos\\tpa.4bi.2ex.0211\\tpa.exercicios(estefany.otavio)\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|solutionrelative:tpa.exercicios(estefany.otavio)\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|c:\\users\\jpabl\\source\\repos\\tpa.4bi.2ex.0211\\tpa.exercicios(estefany.otavio)\\frmgraus3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|solutionrelative:tpa.exercicios(estefany.otavio)\\frmgraus3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|c:\\users\\jpabl\\source\\repos\\tpa.4bi.2ex.0211\\tpa.exercicios(estefany.otavio)\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|solutionrelative:tpa.exercicios(estefany.otavio)\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|c:\\users\\jpabl\\source\\repos\\tpa.4bi.2ex.0211\\tpa.exercicios(estefany.otavio)\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|solutionrelative:tpa.exercicios(estefany.otavio)\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\tpa.exercicios(estefany.otavio)\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A15A5D8B-1CF6-4480-8A88-E3EFE40801FE}|TPA.exercicios(estefany.otavio)\\TPA.exercicios(estefany.otavio).csproj|solutionrelative:tpa.exercicios(estefany.otavio)\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,54 +62,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\TPA.exercicios(estefany.otavio)\\Form1.cs",
-              "RelativeDocumentMoniker": "TPA.exercicios(estefany.otavio)\\Form1.cs",
-              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\TPA.exercicios(estefany.otavio)\\Form1.cs",
-              "RelativeToolTip": "TPA.exercicios(estefany.otavio)\\Form1.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAtwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T21:55:00.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form3.cs",
-              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\TPA.exercicios(estefany.otavio)\\Form3.cs",
+              "DocumentIndex": 6,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form3.cs",
               "RelativeDocumentMoniker": "TPA.exercicios(estefany.otavio)\\Form3.cs",
-              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\TPA.exercicios(estefany.otavio)\\Form3.cs",
-              "RelativeToolTip": "TPA.exercicios(estefany.otavio)\\Form3.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAtwCoAAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form3.cs [Design]",
+              "RelativeToolTip": "TPA.exercicios(estefany.otavio)\\Form3.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T21:50:49.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T23:33:41.253Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\TPA.exercicios(estefany.otavio)\\Form2.cs",
-              "RelativeDocumentMoniker": "TPA.exercicios(estefany.otavio)\\Form2.cs",
-              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\TPA.exercicios(estefany.otavio)\\Form2.cs",
-              "RelativeToolTip": "TPA.exercicios(estefany.otavio)\\Form2.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAtwBwAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Form4.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form4.cs",
+              "RelativeDocumentMoniker": "TPA.exercicios(estefany.otavio)\\Form4.cs",
+              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form4.cs [Design]",
+              "RelativeToolTip": "TPA.exercicios(estefany.otavio)\\Form4.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T21:46:43.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T22:34:22.888Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form7.cs",
+              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form7.cs",
+              "RelativeDocumentMoniker": "TPA.exercicios(estefany.otavio)\\Form7.cs",
+              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form7.cs",
+              "RelativeToolTip": "TPA.exercicios(estefany.otavio)\\Form7.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T21:51:58.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form2.cs",
+              "RelativeDocumentMoniker": "TPA.exercicios(estefany.otavio)\\Form2.cs",
+              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form2.cs [Design]",
+              "RelativeToolTip": "TPA.exercicios(estefany.otavio)\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T22:36:59.782Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\TPA.exercicios(estefany.otavio)\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form1.cs",
               "RelativeDocumentMoniker": "TPA.exercicios(estefany.otavio)\\Form1.cs",
-              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\TPA.exercicios(estefany.otavio)\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form1.cs [Design]",
               "RelativeToolTip": "TPA.exercicios(estefany.otavio)\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-26T22:32:40.915Z",
@@ -97,47 +128,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form2.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\TPA.exercicios(estefany.otavio)\\Form2.cs",
-              "RelativeDocumentMoniker": "TPA.exercicios(estefany.otavio)\\Form2.cs",
-              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\TPA.exercicios(estefany.otavio)\\Form2.cs [Design]",
-              "RelativeToolTip": "TPA.exercicios(estefany.otavio)\\Form2.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form1.cs",
+              "RelativeDocumentMoniker": "TPA.exercicios(estefany.otavio)\\Form1.cs",
+              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form1.cs",
+              "RelativeToolTip": "TPA.exercicios(estefany.otavio)\\Form1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAArwBYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T23:24:17.531Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form4.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\TPA.exercicios(estefany.otavio)\\Form4.cs",
-              "RelativeDocumentMoniker": "TPA.exercicios(estefany.otavio)\\Form4.cs",
-              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\TPA.exercicios(estefany.otavio)\\Form4.cs [Design]",
-              "RelativeToolTip": "TPA.exercicios(estefany.otavio)\\Form4.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T21:42:03.512Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form3.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\TPA.exercicios(estefany.otavio)\\Form3.cs",
-              "RelativeDocumentMoniker": "TPA.exercicios(estefany.otavio)\\Form3.cs",
-              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\TPA.exercicios(estefany.otavio)\\Form3.cs [Design]",
-              "RelativeToolTip": "TPA.exercicios(estefany.otavio)\\Form3.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T23:33:41.253Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-02T22:33:25.053Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form2.cs",
+              "RelativeDocumentMoniker": "TPA.exercicios(estefany.otavio)\\Form2.cs",
+              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form2.cs",
+              "RelativeToolTip": "TPA.exercicios(estefany.otavio)\\Form2.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADgvxUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T21:58:01.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form3.cs",
+              "RelativeDocumentMoniker": "TPA.exercicios(estefany.otavio)\\Form3.cs",
+              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form3.cs",
+              "RelativeToolTip": "TPA.exercicios(estefany.otavio)\\Form3.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAArwEQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T22:05:13.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form7.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form7.cs",
+              "RelativeDocumentMoniker": "TPA.exercicios(estefany.otavio)\\Form7.cs",
+              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form7.cs [Design]",
+              "RelativeToolTip": "TPA.exercicios(estefany.otavio)\\Form7.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T21:38:12.147Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmgraus3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\frmgraus3.cs",
+              "RelativeDocumentMoniker": "TPA.exercicios(estefany.otavio)\\frmgraus3.cs",
+              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\frmgraus3.cs [Design]",
+              "RelativeToolTip": "TPA.exercicios(estefany.otavio)\\frmgraus3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T21:31:59.63Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form5.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form5.cs",
+              "RelativeDocumentMoniker": "TPA.exercicios(estefany.otavio)\\Form5.cs",
+              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form5.cs [Design]",
+              "RelativeToolTip": "TPA.exercicios(estefany.otavio)\\Form5.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T21:28:59.286Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form6.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form6.cs",
+              "RelativeDocumentMoniker": "TPA.exercicios(estefany.otavio)\\Form6.cs",
+              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form6.cs [Design]",
+              "RelativeToolTip": "TPA.exercicios(estefany.otavio)\\Form6.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T21:30:10.177Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Form4.cs",
-              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\TPA.exercicios(estefany.otavio)\\Form4.cs",
+              "DocumentMoniker": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form4.cs",
               "RelativeDocumentMoniker": "TPA.exercicios(estefany.otavio)\\Form4.cs",
-              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\4bimestre.ori\\TPA.exercicios(estefany.otavio)\\Form4.cs",
+              "ToolTip": "C:\\Users\\jpabl\\source\\repos\\TPA.4bi.2ex.0211\\TPA.exercicios(estefany.otavio)\\Form4.cs",
               "RelativeToolTip": "TPA.exercicios(estefany.otavio)\\Form4.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

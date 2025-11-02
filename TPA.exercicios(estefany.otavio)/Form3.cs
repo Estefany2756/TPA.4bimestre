@@ -42,5 +42,33 @@ namespace TPA.exercicios_estefany.otavio_
             frmtabuada3 tab3 = new frmtabuada3();
             tab3.Show();
         }
+
+        private void tsmigraus1_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmgraus1 graus1 = new frmgraus1();
+            graus1.Show();
+        }
+
+        private void tsmigraus2_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmgraus2 graus2 = new frmgraus2();
+            graus2.Show();
+        }
+
+        private void tsmigraus3_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmgraus3 graus3 = new frmgraus3();
+            graus3.Show();
+        }
+
+        private void tsmiarea1_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmarea1 area1 = new frmarea1();
+            area1.Show();
+        }
     }
 }

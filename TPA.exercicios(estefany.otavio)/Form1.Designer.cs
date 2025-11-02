@@ -92,12 +92,13 @@
             // 
             // txtresult
             // 
-            this.txtresult.Location = new System.Drawing.Point(362, 170);
+            this.txtresult.Location = new System.Drawing.Point(361, 160);
+            this.txtresult.Margin = new System.Windows.Forms.Padding(5);
             this.txtresult.Multiline = true;
             this.txtresult.Name = "txtresult";
             this.txtresult.ReadOnly = true;
-            this.txtresult.Size = new System.Drawing.Size(117, 215);
-            this.txtresult.TabIndex = 6;
+            this.txtresult.Size = new System.Drawing.Size(133, 225);
+            this.txtresult.TabIndex = 7;
             // 
             // frmtabuada1
             // 
