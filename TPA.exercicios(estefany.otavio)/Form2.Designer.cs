@@ -82,7 +82,7 @@
             // btnlimpar
             // 
             this.btnlimpar.BackColor = System.Drawing.Color.Pink;
-            this.btnlimpar.Location = new System.Drawing.Point(92, 291);
+            this.btnlimpar.Location = new System.Drawing.Point(92, 286);
             this.btnlimpar.Margin = new System.Windows.Forms.Padding(5);
             this.btnlimpar.Name = "btnlimpar";
             this.btnlimpar.Size = new System.Drawing.Size(122, 37);
@@ -94,7 +94,7 @@
             // btnvoltar
             // 
             this.btnvoltar.BackColor = System.Drawing.Color.Pink;
-            this.btnvoltar.Location = new System.Drawing.Point(92, 386);
+            this.btnvoltar.Location = new System.Drawing.Point(92, 368);
             this.btnvoltar.Margin = new System.Windows.Forms.Padding(5);
             this.btnvoltar.Name = "btnvoltar";
             this.btnvoltar.Size = new System.Drawing.Size(122, 37);

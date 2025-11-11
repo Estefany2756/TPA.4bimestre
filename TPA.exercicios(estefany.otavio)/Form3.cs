@@ -66,6 +66,63 @@ namespace TPA.exercicios_estefany.otavio_
 
         private void tsmiarea1_Click(object sender, EventArgs e)
         {
+          
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void enquantoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmtabuada1 tab1 = new frmtabuada1();
+            tab1.Show();
+        }
+
+        private void tsmiTabFaca_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmtabuada2 tab2 = new frmtabuada2();
+            tab2.Show();
+        }
+
+        private void tsmiTabPara_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmtabuada3 tab3 = new frmtabuada3();
+            tab3.Show();
+        }
+
+        private void enquantoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tsmiGrausEnqt_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmgraus1 graus1 = new frmgraus1();
+            graus1.Show();
+        }
+
+        private void tsmiGrausFaca_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmgraus2 graus2 = new frmgraus2();
+            graus2.Show();
+        }
+
+        private void tsmiGrausPara_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmgraus3 graus3 = new frmgraus3();
+            graus3.Show();
+        }
+
+        private void tsmiAreaIfElse_Click(object sender, EventArgs e)
+        {
             Hide();
             frmarea1 area1 = new frmarea1();
             area1.Show();

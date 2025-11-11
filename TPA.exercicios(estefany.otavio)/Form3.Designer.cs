@@ -30,16 +30,17 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.tsmiprogramas = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmitabuada1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmitabuada2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmitabuada3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmisair = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmigraus1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmigraus2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmigraus3 = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiarea1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiarea2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiarea3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmisair = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiTabEnqt = new System.Windows.Forms.ToolStripMenuItem();
+            this.enquantoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiTabFaca = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiTabPara = new System.Windows.Forms.ToolStripMenuItem();
+            this.conversãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiGrausEnqt = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiGrausFaca = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiGrausPara = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiAreaIfElse = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,46 +52,29 @@
             this.tsmisair});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(597, 32);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // tsmiprogramas
             // 
             this.tsmiprogramas.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmitabuada1,
-            this.tsmitabuada2,
-            this.tsmitabuada3,
-            this.tsmigraus1,
-            this.tsmigraus2,
-            this.tsmigraus3,
-            this.tsmiarea1,
-            this.tsmiarea2,
-            this.tsmiarea3});
+            this.tsmiTabEnqt,
+            this.conversãoToolStripMenuItem,
+            this.tsmiarea1});
+            this.tsmiprogramas.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmiprogramas.Name = "tsmiprogramas";
-            this.tsmiprogramas.Size = new System.Drawing.Size(94, 24);
+            this.tsmiprogramas.Size = new System.Drawing.Size(104, 28);
             this.tsmiprogramas.Text = "Programas";
             // 
-            // tsmitabuada1
+            // tsmiarea1
             // 
-            this.tsmitabuada1.Name = "tsmitabuada1";
-            this.tsmitabuada1.Size = new System.Drawing.Size(224, 26);
-            this.tsmitabuada1.Text = "Tabuada 1";
-            this.tsmitabuada1.Click += new System.EventHandler(this.tsmitabuada1_Click);
-            // 
-            // tsmitabuada2
-            // 
-            this.tsmitabuada2.Name = "tsmitabuada2";
-            this.tsmitabuada2.Size = new System.Drawing.Size(224, 26);
-            this.tsmitabuada2.Text = "Tabuada 2";
-            this.tsmitabuada2.Click += new System.EventHandler(this.tsmitabuada2_Click);
-            // 
-            // tsmitabuada3
-            // 
-            this.tsmitabuada3.Name = "tsmitabuada3";
-            this.tsmitabuada3.Size = new System.Drawing.Size(224, 26);
-            this.tsmitabuada3.Text = "Tabuada 3";
-            this.tsmitabuada3.Click += new System.EventHandler(this.tsmitabuada3_Click);
+            this.tsmiarea1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiAreaIfElse});
+            this.tsmiarea1.Name = "tsmiarea1";
+            this.tsmiarea1.Size = new System.Drawing.Size(224, 26);
+            this.tsmiarea1.Text = "Área ";
+            this.tsmiarea1.Click += new System.EventHandler(this.tsmiarea1_Click);
             // 
             // tsmisair
             // 
@@ -99,51 +83,80 @@
             this.tsmisair.Text = "Sair";
             this.tsmisair.Click += new System.EventHandler(this.tsmisair_Click);
             // 
-            // tsmigraus1
+            // tsmiTabEnqt
             // 
-            this.tsmigraus1.Name = "tsmigraus1";
-            this.tsmigraus1.Size = new System.Drawing.Size(224, 26);
-            this.tsmigraus1.Text = "Graus 1";
-            this.tsmigraus1.Click += new System.EventHandler(this.tsmigraus1_Click);
+            this.tsmiTabEnqt.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.enquantoToolStripMenuItem,
+            this.tsmiTabFaca,
+            this.tsmiTabPara});
+            this.tsmiTabEnqt.Name = "tsmiTabEnqt";
+            this.tsmiTabEnqt.Size = new System.Drawing.Size(224, 28);
+            this.tsmiTabEnqt.Text = "Tabuada";
             // 
-            // tsmigraus2
+            // enquantoToolStripMenuItem
             // 
-            this.tsmigraus2.Name = "tsmigraus2";
-            this.tsmigraus2.Size = new System.Drawing.Size(224, 26);
-            this.tsmigraus2.Text = "Graus 2";
-            this.tsmigraus2.Click += new System.EventHandler(this.tsmigraus2_Click);
+            this.enquantoToolStripMenuItem.Name = "enquantoToolStripMenuItem";
+            this.enquantoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.enquantoToolStripMenuItem.Text = "enquanto";
+            this.enquantoToolStripMenuItem.Click += new System.EventHandler(this.enquantoToolStripMenuItem_Click);
             // 
-            // tsmigraus3
+            // tsmiTabFaca
             // 
-            this.tsmigraus3.Name = "tsmigraus3";
-            this.tsmigraus3.Size = new System.Drawing.Size(224, 26);
-            this.tsmigraus3.Text = "Graus 3";
-            this.tsmigraus3.Click += new System.EventHandler(this.tsmigraus3_Click);
+            this.tsmiTabFaca.Name = "tsmiTabFaca";
+            this.tsmiTabFaca.Size = new System.Drawing.Size(224, 26);
+            this.tsmiTabFaca.Text = "faca";
+            this.tsmiTabFaca.Click += new System.EventHandler(this.tsmiTabFaca_Click);
             // 
-            // tsmiarea1
+            // tsmiTabPara
             // 
-            this.tsmiarea1.Name = "tsmiarea1";
-            this.tsmiarea1.Size = new System.Drawing.Size(224, 26);
-            this.tsmiarea1.Text = "Área 1 (incompleto)";
-            this.tsmiarea1.Click += new System.EventHandler(this.tsmiarea1_Click);
+            this.tsmiTabPara.Name = "tsmiTabPara";
+            this.tsmiTabPara.Size = new System.Drawing.Size(224, 26);
+            this.tsmiTabPara.Text = "para";
+            this.tsmiTabPara.Click += new System.EventHandler(this.tsmiTabPara_Click);
             // 
-            // tsmiarea2
+            // conversãoToolStripMenuItem
             // 
-            this.tsmiarea2.Name = "tsmiarea2";
-            this.tsmiarea2.Size = new System.Drawing.Size(224, 26);
-            this.tsmiarea2.Text = "Área 2";
+            this.conversãoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiGrausEnqt,
+            this.tsmiGrausFaca,
+            this.tsmiGrausPara});
+            this.conversãoToolStripMenuItem.Name = "conversãoToolStripMenuItem";
+            this.conversãoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.conversãoToolStripMenuItem.Text = "Conversão";
             // 
-            // tsmiarea3
+            // tsmiGrausEnqt
             // 
-            this.tsmiarea3.Name = "tsmiarea3";
-            this.tsmiarea3.Size = new System.Drawing.Size(224, 26);
-            this.tsmiarea3.Text = "Área 3";
+            this.tsmiGrausEnqt.Name = "tsmiGrausEnqt";
+            this.tsmiGrausEnqt.Size = new System.Drawing.Size(224, 26);
+            this.tsmiGrausEnqt.Text = "enquanto";
+            this.tsmiGrausEnqt.Click += new System.EventHandler(this.tsmiGrausEnqt_Click);
+            // 
+            // tsmiGrausFaca
+            // 
+            this.tsmiGrausFaca.Name = "tsmiGrausFaca";
+            this.tsmiGrausFaca.Size = new System.Drawing.Size(224, 26);
+            this.tsmiGrausFaca.Text = "faca";
+            this.tsmiGrausFaca.Click += new System.EventHandler(this.tsmiGrausFaca_Click);
+            // 
+            // tsmiGrausPara
+            // 
+            this.tsmiGrausPara.Name = "tsmiGrausPara";
+            this.tsmiGrausPara.Size = new System.Drawing.Size(224, 26);
+            this.tsmiGrausPara.Text = "para";
+            this.tsmiGrausPara.Click += new System.EventHandler(this.tsmiGrausPara_Click);
+            // 
+            // tsmiAreaIfElse
+            // 
+            this.tsmiAreaIfElse.Name = "tsmiAreaIfElse";
+            this.tsmiAreaIfElse.Size = new System.Drawing.Size(224, 26);
+            this.tsmiAreaIfElse.Text = "If Else";
+            this.tsmiAreaIfElse.Click += new System.EventHandler(this.tsmiAreaIfElse_Click);
             // 
             // frmmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(597, 347);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmmenu";
@@ -160,15 +173,16 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem tsmiprogramas;
-        private System.Windows.Forms.ToolStripMenuItem tsmitabuada1;
-        private System.Windows.Forms.ToolStripMenuItem tsmitabuada2;
-        private System.Windows.Forms.ToolStripMenuItem tsmitabuada3;
         private System.Windows.Forms.ToolStripMenuItem tsmisair;
-        private System.Windows.Forms.ToolStripMenuItem tsmigraus1;
-        private System.Windows.Forms.ToolStripMenuItem tsmigraus2;
-        private System.Windows.Forms.ToolStripMenuItem tsmigraus3;
         private System.Windows.Forms.ToolStripMenuItem tsmiarea1;
-        private System.Windows.Forms.ToolStripMenuItem tsmiarea2;
-        private System.Windows.Forms.ToolStripMenuItem tsmiarea3;
+        private System.Windows.Forms.ToolStripMenuItem tsmiTabEnqt;
+        private System.Windows.Forms.ToolStripMenuItem enquantoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsmiTabFaca;
+        private System.Windows.Forms.ToolStripMenuItem tsmiTabPara;
+        private System.Windows.Forms.ToolStripMenuItem conversãoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsmiGrausEnqt;
+        private System.Windows.Forms.ToolStripMenuItem tsmiGrausFaca;
+        private System.Windows.Forms.ToolStripMenuItem tsmiGrausPara;
+        private System.Windows.Forms.ToolStripMenuItem tsmiAreaIfElse;
     }
 }

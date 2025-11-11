@@ -17,28 +17,53 @@ namespace TPA.exercicios_estefany.otavio_
             InitializeComponent();
         }
 
+        double areatotal = 0.0, larg = 0.0, comp = 0.0, areacmd = 0.0;
+
+        private void btnlimpar_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnvoltar_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmmenu menu = new frmmenu();
+            menu.Show();
+        }
+
+        DialogResult resultado = DialogResult.Yes;
         private void btncalcular_Click(object sender, EventArgs e)
         {
-            //CÓDIGO NÃO FINALIZADO!
-            Int32 I = 1, cmd;
-            double comp, larg, area, total = 0;
+            larg = Convert.ToDouble(txtlarg.Text);
+            comp = Convert.ToDouble(txtcomp.Text);
+            areacmd = larg * comp;
+            areatotal += areacmd;
+            txtarea.Text = areacmd.ToString();
 
-            cmd = Convert.ToInt32(txtcmd.Text);
-
-            while (I <= cmd)
+            resultado = MessageBox.Show("Deseja adicionar outro cômodo?", "Continuar", MessageBoxButtons.YesNo);
+            if (resultado == DialogResult.Yes)
             {
-                comp = Convert.ToDouble(txtcomp.Text);
-                larg = Convert.ToDouble(txtlarg.Text);
+                txtarea.Clear();
+                txtcomp.Clear();
+                txtlarg.Clear();
+                txtlarg.Focus();
 
-                area = larg * comp;
-                total += total + area;
-
-
-                txtarea.Text = area + "m² \n";
-                I++;
-                //area = Convert.ToDouble(txtarea.Text);
             }
-            txttotal.Text = total + "m²";
+            else if (resultado == DialogResult.No)
+            {
+
+                txttotal.Text = areatotal.ToString();
+                {
+                }
+            }
         }
     }
 }
+
+
+
+
+
+
+
+   

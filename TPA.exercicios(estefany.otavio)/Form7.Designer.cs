@@ -33,164 +33,132 @@
             this.lblcomp = new System.Windows.Forms.Label();
             this.lblarea = new System.Windows.Forms.Label();
             this.lbltotal = new System.Windows.Forms.Label();
-            this.txtcmd = new System.Windows.Forms.TextBox();
-            this.txtcmdI = new System.Windows.Forms.TextBox();
             this.txtlarg = new System.Windows.Forms.TextBox();
-            this.txtcmdII = new System.Windows.Forms.TextBox();
             this.txtcomp = new System.Windows.Forms.TextBox();
-            this.txtcmdIII = new System.Windows.Forms.TextBox();
             this.txtarea = new System.Windows.Forms.TextBox();
             this.txttotal = new System.Windows.Forms.TextBox();
             this.btncalcular = new System.Windows.Forms.Button();
-            this.btnlimpar = new System.Windows.Forms.Button();
             this.btnvoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblcmd
             // 
             this.lblcmd.AutoSize = true;
+            this.lblcmd.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblcmd.Location = new System.Drawing.Point(86, 48);
             this.lblcmd.Name = "lblcmd";
-            this.lblcmd.Size = new System.Drawing.Size(255, 16);
+            this.lblcmd.Size = new System.Drawing.Size(0, 26);
             this.lblcmd.TabIndex = 0;
-            this.lblcmd.Text = "Quantos cômodos há em sua residência?";
             // 
             // lbllarg
             // 
             this.lbllarg.AutoSize = true;
-            this.lbllarg.Location = new System.Drawing.Point(86, 113);
+            this.lbllarg.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbllarg.Location = new System.Drawing.Point(66, 64);
             this.lbllarg.Name = "lbllarg";
-            this.lbllarg.Size = new System.Drawing.Size(233, 16);
+            this.lbllarg.Size = new System.Drawing.Size(308, 26);
             this.lbllarg.TabIndex = 1;
-            this.lbllarg.Text = "Informe a largura do cômodo                 :";
+            this.lbllarg.Text = "Informe a largura do cômodo:";
             // 
             // lblcomp
             // 
             this.lblcomp.AutoSize = true;
-            this.lblcomp.Location = new System.Drawing.Point(86, 173);
+            this.lblcomp.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcomp.Location = new System.Drawing.Point(66, 118);
             this.lblcomp.Name = "lblcomp";
-            this.lblcomp.Size = new System.Drawing.Size(269, 16);
+            this.lblcomp.Size = new System.Drawing.Size(374, 26);
             this.lblcomp.TabIndex = 2;
-            this.lblcomp.Text = "Informe o comprimento do cômodo                 :";
+            this.lblcomp.Text = "Informe o comprimento do cômodo :";
             // 
             // lblarea
             // 
             this.lblarea.AutoSize = true;
-            this.lblarea.Location = new System.Drawing.Point(86, 236);
+            this.lblarea.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblarea.Location = new System.Drawing.Point(66, 184);
             this.lblarea.Name = "lblarea";
-            this.lblarea.Size = new System.Drawing.Size(163, 16);
+            this.lblarea.Size = new System.Drawing.Size(240, 26);
             this.lblarea.TabIndex = 3;
-            this.lblarea.Text = "A área do cômodo          é: ";
+            this.lblarea.Text = "A área do cômodo   é: ";
             // 
             // lbltotal
             // 
             this.lbltotal.AutoSize = true;
-            this.lbltotal.Location = new System.Drawing.Point(90, 292);
+            this.lbltotal.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltotal.Location = new System.Drawing.Point(66, 246);
             this.lbltotal.Name = "lbltotal";
-            this.lbltotal.Size = new System.Drawing.Size(199, 16);
+            this.lbltotal.Size = new System.Drawing.Size(337, 26);
             this.lbltotal.TabIndex = 4;
             this.lbltotal.Text = "A área total de sua residência é:";
             // 
-            // txtcmd
-            // 
-            this.txtcmd.Location = new System.Drawing.Point(366, 47);
-            this.txtcmd.Name = "txtcmd";
-            this.txtcmd.Size = new System.Drawing.Size(100, 22);
-            this.txtcmd.TabIndex = 5;
-            // 
-            // txtcmdI
-            // 
-            this.txtcmdI.Location = new System.Drawing.Point(277, 113);
-            this.txtcmdI.Name = "txtcmdI";
-            this.txtcmdI.Size = new System.Drawing.Size(22, 22);
-            this.txtcmdI.TabIndex = 6;
-            // 
             // txtlarg
             // 
-            this.txtlarg.Location = new System.Drawing.Point(336, 111);
+            this.txtlarg.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtlarg.Location = new System.Drawing.Point(498, 64);
             this.txtlarg.Name = "txtlarg";
-            this.txtlarg.Size = new System.Drawing.Size(100, 22);
+            this.txtlarg.Size = new System.Drawing.Size(119, 34);
             this.txtlarg.TabIndex = 7;
-            // 
-            // txtcmdII
-            // 
-            this.txtcmdII.Location = new System.Drawing.Point(318, 170);
-            this.txtcmdII.Name = "txtcmdII";
-            this.txtcmdII.Size = new System.Drawing.Size(23, 22);
-            this.txtcmdII.TabIndex = 8;
             // 
             // txtcomp
             // 
-            this.txtcomp.Location = new System.Drawing.Point(361, 170);
+            this.txtcomp.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtcomp.Location = new System.Drawing.Point(498, 115);
             this.txtcomp.Name = "txtcomp";
-            this.txtcomp.Size = new System.Drawing.Size(100, 22);
+            this.txtcomp.Size = new System.Drawing.Size(119, 34);
             this.txtcomp.TabIndex = 9;
-            // 
-            // txtcmdIII
-            // 
-            this.txtcmdIII.Location = new System.Drawing.Point(204, 233);
-            this.txtcmdIII.Name = "txtcmdIII";
-            this.txtcmdIII.Size = new System.Drawing.Size(23, 22);
-            this.txtcmdIII.TabIndex = 10;
             // 
             // txtarea
             // 
-            this.txtarea.Location = new System.Drawing.Point(255, 233);
+            this.txtarea.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtarea.Location = new System.Drawing.Point(498, 181);
             this.txtarea.Name = "txtarea";
-            this.txtarea.Size = new System.Drawing.Size(100, 22);
+            this.txtarea.ReadOnly = true;
+            this.txtarea.Size = new System.Drawing.Size(119, 34);
             this.txtarea.TabIndex = 11;
             // 
             // txttotal
             // 
-            this.txttotal.Location = new System.Drawing.Point(302, 292);
+            this.txttotal.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txttotal.Location = new System.Drawing.Point(494, 243);
             this.txttotal.Name = "txttotal";
-            this.txttotal.Size = new System.Drawing.Size(100, 22);
+            this.txttotal.ReadOnly = true;
+            this.txttotal.Size = new System.Drawing.Size(123, 34);
             this.txttotal.TabIndex = 12;
             // 
             // btncalcular
             // 
-            this.btncalcular.Location = new System.Drawing.Point(102, 375);
+            this.btncalcular.BackColor = System.Drawing.Color.Pink;
+            this.btncalcular.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncalcular.Location = new System.Drawing.Point(169, 360);
             this.btncalcular.Name = "btncalcular";
-            this.btncalcular.Size = new System.Drawing.Size(75, 23);
+            this.btncalcular.Size = new System.Drawing.Size(123, 43);
             this.btncalcular.TabIndex = 13;
             this.btncalcular.Text = "Calcular";
-            this.btncalcular.UseVisualStyleBackColor = true;
+            this.btncalcular.UseVisualStyleBackColor = false;
             this.btncalcular.Click += new System.EventHandler(this.btncalcular_Click);
-            // 
-            // btnlimpar
-            // 
-            this.btnlimpar.Location = new System.Drawing.Point(224, 375);
-            this.btnlimpar.Name = "btnlimpar";
-            this.btnlimpar.Size = new System.Drawing.Size(75, 23);
-            this.btnlimpar.TabIndex = 14;
-            this.btnlimpar.Text = "Limpar";
-            this.btnlimpar.UseVisualStyleBackColor = true;
             // 
             // btnvoltar
             // 
-            this.btnvoltar.Location = new System.Drawing.Point(361, 375);
+            this.btnvoltar.BackColor = System.Drawing.Color.Pink;
+            this.btnvoltar.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnvoltar.Location = new System.Drawing.Point(392, 360);
             this.btnvoltar.Name = "btnvoltar";
-            this.btnvoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnvoltar.Size = new System.Drawing.Size(119, 43);
             this.btnvoltar.TabIndex = 15;
             this.btnvoltar.Text = "Voltar";
-            this.btnvoltar.UseVisualStyleBackColor = true;
+            this.btnvoltar.UseVisualStyleBackColor = false;
+            this.btnvoltar.Click += new System.EventHandler(this.btnvoltar_Click);
             // 
             // frmarea1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(766, 471);
             this.Controls.Add(this.btnvoltar);
-            this.Controls.Add(this.btnlimpar);
             this.Controls.Add(this.btncalcular);
             this.Controls.Add(this.txttotal);
             this.Controls.Add(this.txtarea);
-            this.Controls.Add(this.txtcmdIII);
             this.Controls.Add(this.txtcomp);
-            this.Controls.Add(this.txtcmdII);
             this.Controls.Add(this.txtlarg);
-            this.Controls.Add(this.txtcmdI);
-            this.Controls.Add(this.txtcmd);
             this.Controls.Add(this.lbltotal);
             this.Controls.Add(this.lblarea);
             this.Controls.Add(this.lblcomp);
@@ -198,7 +166,7 @@
             this.Controls.Add(this.lblcmd);
             this.Name = "frmarea1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Calculo de Área (enquanto)";
+            this.Text = "Calculo de Área (if else)";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -211,16 +179,11 @@
         private System.Windows.Forms.Label lblcomp;
         private System.Windows.Forms.Label lblarea;
         private System.Windows.Forms.Label lbltotal;
-        private System.Windows.Forms.TextBox txtcmd;
-        private System.Windows.Forms.TextBox txtcmdI;
         private System.Windows.Forms.TextBox txtlarg;
-        private System.Windows.Forms.TextBox txtcmdII;
         private System.Windows.Forms.TextBox txtcomp;
-        private System.Windows.Forms.TextBox txtcmdIII;
         private System.Windows.Forms.TextBox txtarea;
         private System.Windows.Forms.TextBox txttotal;
         private System.Windows.Forms.Button btncalcular;
-        private System.Windows.Forms.Button btnlimpar;
         private System.Windows.Forms.Button btnvoltar;
     }
 }
