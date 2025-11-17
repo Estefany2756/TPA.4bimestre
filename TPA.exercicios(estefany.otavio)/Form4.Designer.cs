@@ -98,12 +98,12 @@
             // txtresult
             // 
             this.txtresult.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtresult.Location = new System.Drawing.Point(332, 171);
+            this.txtresult.Location = new System.Drawing.Point(342, 164);
             this.txtresult.Margin = new System.Windows.Forms.Padding(5);
             this.txtresult.Multiline = true;
             this.txtresult.Name = "txtresult";
             this.txtresult.ReadOnly = true;
-            this.txtresult.Size = new System.Drawing.Size(173, 269);
+            this.txtresult.Size = new System.Drawing.Size(153, 269);
             this.txtresult.TabIndex = 12;
             // 
             // frmtabuada3

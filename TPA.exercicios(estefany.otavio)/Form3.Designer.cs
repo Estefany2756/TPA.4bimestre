@@ -30,8 +30,6 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.tsmiprogramas = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiarea1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmisair = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTabEnqt = new System.Windows.Forms.ToolStripMenuItem();
             this.enquantoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTabFaca = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,8 +38,13 @@
             this.tsmiGrausEnqt = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiGrausFaca = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiGrausPara = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiarea1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiAreaIfElse = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmisair = new System.Windows.Forms.ToolStripMenuItem();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.tsmidevs = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -67,22 +70,6 @@
             this.tsmiprogramas.Size = new System.Drawing.Size(104, 28);
             this.tsmiprogramas.Text = "Programas";
             // 
-            // tsmiarea1
-            // 
-            this.tsmiarea1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmiAreaIfElse});
-            this.tsmiarea1.Name = "tsmiarea1";
-            this.tsmiarea1.Size = new System.Drawing.Size(224, 26);
-            this.tsmiarea1.Text = "Área ";
-            this.tsmiarea1.Click += new System.EventHandler(this.tsmiarea1_Click);
-            // 
-            // tsmisair
-            // 
-            this.tsmisair.Name = "tsmisair";
-            this.tsmisair.Size = new System.Drawing.Size(48, 24);
-            this.tsmisair.Text = "Sair";
-            this.tsmisair.Click += new System.EventHandler(this.tsmisair_Click);
-            // 
             // tsmiTabEnqt
             // 
             this.tsmiTabEnqt.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -90,27 +77,27 @@
             this.tsmiTabFaca,
             this.tsmiTabPara});
             this.tsmiTabEnqt.Name = "tsmiTabEnqt";
-            this.tsmiTabEnqt.Size = new System.Drawing.Size(224, 28);
+            this.tsmiTabEnqt.Size = new System.Drawing.Size(173, 28);
             this.tsmiTabEnqt.Text = "Tabuada";
             // 
             // enquantoToolStripMenuItem
             // 
             this.enquantoToolStripMenuItem.Name = "enquantoToolStripMenuItem";
-            this.enquantoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.enquantoToolStripMenuItem.Size = new System.Drawing.Size(162, 28);
             this.enquantoToolStripMenuItem.Text = "enquanto";
             this.enquantoToolStripMenuItem.Click += new System.EventHandler(this.enquantoToolStripMenuItem_Click);
             // 
             // tsmiTabFaca
             // 
             this.tsmiTabFaca.Name = "tsmiTabFaca";
-            this.tsmiTabFaca.Size = new System.Drawing.Size(224, 26);
+            this.tsmiTabFaca.Size = new System.Drawing.Size(162, 28);
             this.tsmiTabFaca.Text = "faca";
             this.tsmiTabFaca.Click += new System.EventHandler(this.tsmiTabFaca_Click);
             // 
             // tsmiTabPara
             // 
             this.tsmiTabPara.Name = "tsmiTabPara";
-            this.tsmiTabPara.Size = new System.Drawing.Size(224, 26);
+            this.tsmiTabPara.Size = new System.Drawing.Size(162, 28);
             this.tsmiTabPara.Text = "para";
             this.tsmiTabPara.Click += new System.EventHandler(this.tsmiTabPara_Click);
             // 
@@ -121,42 +108,76 @@
             this.tsmiGrausFaca,
             this.tsmiGrausPara});
             this.conversãoToolStripMenuItem.Name = "conversãoToolStripMenuItem";
-            this.conversãoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.conversãoToolStripMenuItem.Size = new System.Drawing.Size(173, 28);
             this.conversãoToolStripMenuItem.Text = "Conversão";
             // 
             // tsmiGrausEnqt
             // 
             this.tsmiGrausEnqt.Name = "tsmiGrausEnqt";
-            this.tsmiGrausEnqt.Size = new System.Drawing.Size(224, 26);
+            this.tsmiGrausEnqt.Size = new System.Drawing.Size(162, 28);
             this.tsmiGrausEnqt.Text = "enquanto";
             this.tsmiGrausEnqt.Click += new System.EventHandler(this.tsmiGrausEnqt_Click);
             // 
             // tsmiGrausFaca
             // 
             this.tsmiGrausFaca.Name = "tsmiGrausFaca";
-            this.tsmiGrausFaca.Size = new System.Drawing.Size(224, 26);
+            this.tsmiGrausFaca.Size = new System.Drawing.Size(162, 28);
             this.tsmiGrausFaca.Text = "faca";
             this.tsmiGrausFaca.Click += new System.EventHandler(this.tsmiGrausFaca_Click);
             // 
             // tsmiGrausPara
             // 
             this.tsmiGrausPara.Name = "tsmiGrausPara";
-            this.tsmiGrausPara.Size = new System.Drawing.Size(224, 26);
+            this.tsmiGrausPara.Size = new System.Drawing.Size(162, 28);
             this.tsmiGrausPara.Text = "para";
             this.tsmiGrausPara.Click += new System.EventHandler(this.tsmiGrausPara_Click);
+            // 
+            // tsmiarea1
+            // 
+            this.tsmiarea1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiAreaIfElse});
+            this.tsmiarea1.Name = "tsmiarea1";
+            this.tsmiarea1.Size = new System.Drawing.Size(173, 28);
+            this.tsmiarea1.Text = "Área ";
+            this.tsmiarea1.Click += new System.EventHandler(this.tsmiarea1_Click);
             // 
             // tsmiAreaIfElse
             // 
             this.tsmiAreaIfElse.Name = "tsmiAreaIfElse";
-            this.tsmiAreaIfElse.Size = new System.Drawing.Size(224, 26);
+            this.tsmiAreaIfElse.Size = new System.Drawing.Size(140, 28);
             this.tsmiAreaIfElse.Text = "If Else";
             this.tsmiAreaIfElse.Click += new System.EventHandler(this.tsmiAreaIfElse_Click);
+            // 
+            // tsmisair
+            // 
+            this.tsmisair.Name = "tsmisair";
+            this.tsmisair.Size = new System.Drawing.Size(48, 28);
+            this.tsmisair.Text = "Sair";
+            this.tsmisair.Click += new System.EventHandler(this.tsmisair_Click);
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmidevs});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 321);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(597, 26);
+            this.statusStrip1.TabIndex = 1;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // tsmidevs
+            // 
+            this.tsmidevs.Name = "tsmidevs";
+            this.tsmidevs.Size = new System.Drawing.Size(404, 20);
+            this.tsmidevs.Text = "Programa Desenvolvido por Maria Estéfany e Otavio Aguiar";
             // 
             // frmmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(597, 347);
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmmenu";
@@ -164,6 +185,8 @@
             this.Text = "Menu";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -184,5 +207,7 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiGrausFaca;
         private System.Windows.Forms.ToolStripMenuItem tsmiGrausPara;
         private System.Windows.Forms.ToolStripMenuItem tsmiAreaIfElse;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel tsmidevs;
     }
 }

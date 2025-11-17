@@ -63,7 +63,7 @@
             this.txtresult.Multiline = true;
             this.txtresult.Name = "txtresult";
             this.txtresult.ReadOnly = true;
-            this.txtresult.Size = new System.Drawing.Size(133, 225);
+            this.txtresult.Size = new System.Drawing.Size(123, 225);
             this.txtresult.TabIndex = 2;
             this.txtresult.TextChanged += new System.EventHandler(this.txtresult_TextChanged);
             // 
